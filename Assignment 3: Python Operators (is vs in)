@@ -1,1 +1,13 @@
+# Example of 'is' Operator
+a = [10, 20, 30]
+b = [10, 20, 30]
+c = a
+
+print(a is b)  # False (Different objects in memory)
+print(a is c)  # True (Same object in memory)
+
+# Example of 'in' Operator
+numbers = [1, 2, 3, 4, 5]
+print(3 in numbers)  # True (3 exists in the list)
+print(6 in numbers)  # False (6 is not in the list)
 
